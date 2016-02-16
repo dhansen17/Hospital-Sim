@@ -1,0 +1,27 @@
+﻿Build started 12/18/2015 7:16:41 PM.
+     1>Project "Z:\Final Project #3\Hospital Sim\Hospital Sim\Hospital Sim.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>z:\final project #3\hospital sim\hospital sim\patient.h(52): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>z:\final project #3\hospital sim\hospital sim\patient.h(66): warning C4552: '+': operator has no effect; expected operator with side-effect
+     1>z:\final project #3\hospital sim\hospital sim\patient.h(73): warning C4552: '+': operator has no effect; expected operator with side-effect
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(19): error C2143: syntax error: missing ';' before '*'
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(19): error C2238: unexpected token(s) preceding ';'
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(24): error C2061: syntax error: identifier 'Hospital'
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(25): error C2614: 'Doctor': illegal member initialization: 'hospital' is not a base or member
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(57): warning C4800: 'Patient *': forcing value to bool 'true' or 'false' (performance warning)
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(73): error C2065: 'hospital': undeclared identifier
+     1>z:\final project #3\hospital sim\hospital sim\doctor.h(73): error C2227: left of '->setServePatients' must point to class/struct/union/generic type
+         z:\final project #3\hospital sim\hospital sim\doctor.h(73): note: type is 'unknown-type'
+     1>z:\final project #3\hospital sim\hospital sim\docroom.h(14): error C2061: syntax error: identifier 'Hospital'
+     1>z:\final project #3\hospital sim\hospital sim\docroom.h(17): error C2065: 'hospital': undeclared identifier
+     1>z:\final project #3\hospital sim\hospital sim\docroom.h(22): warning C4018: '<': signed/unsigned mismatch
+     1>z:\final project #3\hospital sim\hospital sim\docroom.h(23): error C2064: term does not evaluate to a function taking 1 arguments
+     1>z:\final project #3\hospital sim\hospital sim\simulator.h(7): fatal error C1083: Cannot open include file: 'Emergency.h': No such file or directory
+     1>Done Building Project "Z:\Final Project #3\Hospital Sim\Hospital Sim\Hospital Sim.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
